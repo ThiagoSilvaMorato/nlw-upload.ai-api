@@ -20,7 +20,6 @@ Content-Type: audio/mpeg
 POST http://localhost:3333/videos/07f731f7-d756-46d8-a6e1-e3f1d65faa0f/transcription
 Content-Type: application/json
 
-
 {
   "prompt": "second, hopefully"
 }
@@ -35,5 +34,5 @@ Content-Type: application/json
 {
   "videoId": "07f731f7-d756-46d8-a6e1-e3f1d65faa0f",
   "temperature": 0.5,
-  "template": "Gere um resumo sucinto da transcrição do vídeo informada a seguir: '''{trasncription}'''"
+  "prompt": "Gere um resumo sucinto da transcrição do vídeo informada a seguir: '''{trasncription}'''"
 }
